@@ -1,0 +1,366 @@
+{
+    "brand.name": "Ameer Alafash",
+    "brand.role": "Front-end Developer & Web Designer",
+    "promo.text": "🚀 Available for new Front-end projects —",
+    "promo.link": "Get in touch",
+    "nav.home": "Home",
+    "nav.articles": "Articles",
+    "nav.work": "Work",
+    "nav.services": "Services",
+    "nav.about": "About",
+    "nav.contact": "Contact",
+    "nav.cta": "Get in touch",
+    "common.view_all": "View all",
+    "common.all": "All",
+    "common.previous": "Previous",
+    "common.next": "Next",
+    "common.minutes_read": ":n min read",
+    "common.views": ":n views",
+    "common.no_articles": "No articles in this category yet.",
+    "home.hero_kicker": "Hi, I’m Ameer 👋",
+    "home.hero_title_1": "I build",
+    "home.hero_highlight": "modern web",
+    "home.hero_title_2": "experiences, beautifully crafted.",
+    "home.hero_desc": "Front-end developer (Vue · Nuxt · React · Next) and web designer. I help you build fast, intuitive interfaces that achieve your goals.",
+    "home.btn_work": "View my work",
+    "home.btn_contact": "Get in touch",
+    "home.skills": [
+        "Vue.js",
+        "Nuxt.js",
+        "React",
+        "Next.js",
+        "Tailwind CSS",
+        "TypeScript",
+        "Laravel",
+        "WordPress",
+        "UI/UX Design"
+    ],
+    "home.featured_kicker": "Work",
+    "home.featured_title": "Projects I’ve built",
+    "home.featured_subtitle": "A few of the projects I’ve built and am proud of.",
+    "home.featured_action": "All work",
+    "home.services_kicker": "What I do",
+    "home.services_title": "My services",
+    "home.services_action": "View all services",
+    "home.articles_kicker": "Blog",
+    "home.articles_title": "Latest articles",
+    "home.articles_subtitle": "I share what I learn about web development and design.",
+    "home.articles_action": "All articles",
+    "home.categories_kicker": "Topics",
+    "home.categories_title": "Explore by topic",
+    "home.newsletter_title": "Subscribe to the newsletter",
+    "home.newsletter_desc": "I share articles, tools, and thoughts on web development and design. No spam.",
+    "about.kicker": "About",
+    "about.title": "Hi, I’m Ameer 👋",
+    "about.lead": "I’m <strong>Ameer Alafash</strong>, a Front-end developer and web designer. I build fast, beautiful, and easy-to-use web experiences using Vue.js, Nuxt.js, React, and Next.js.",
+    "about.p1": "I started my web journey years ago, and learned how to combine good design with clean code to build digital products that make a real difference. I believe a great interface starts with understanding the user and ends with an unforgettable experience.",
+    "about.p2": "I’ve worked on diverse projects: travel platforms, management apps, recruitment platforms, medical and commercial sites. Every project taught me something new and added to my experience.",
+    "about.skill_groups": [
+        {
+            "cat": "Frameworks & Libraries",
+            "items": [
+                "Vue.js",
+                "Nuxt.js",
+                "React",
+                "Next.js",
+                "Livewire"
+            ]
+        },
+        {
+            "cat": "Design",
+            "items": [
+                "Figma",
+                "Tailwind CSS",
+                "UI Design",
+                "UX Research"
+            ]
+        },
+        {
+            "cat": "Backend Basics",
+            "items": [
+                "Laravel",
+                "PHP",
+                "REST APIs",
+                "MySQL"
+            ]
+        },
+        {
+            "cat": "Other Tools",
+            "items": [
+                "Git",
+                "Vite",
+                "TypeScript",
+                "WordPress"
+            ]
+        }
+    ],
+    "about.btn_work": "View my work",
+    "about.btn_contact": "Get in touch",
+    "services.kicker": "Services",
+    "services.title": "How can I help you?",
+    "services.subtitle": "I offer end-to-end services from design to development to build your digital product.",
+    "services.items": [
+        {
+            "icon": "🎨",
+            "title": "UI/UX Design",
+            "desc": "Designing attractive user interfaces and a distinctive user experience using Figma. From wireframes to a testable prototype.",
+            "items": [
+                "Figma Design",
+                "Wireframes",
+                "Interactive Prototype",
+                "User Testing"
+            ]
+        },
+        {
+            "icon": "⚡",
+            "title": "Front-end Development",
+            "desc": "Building fast, modern web interfaces with Vue.js, React, Nuxt, and Next.js with Tailwind CSS.",
+            "items": [
+                "Vue.js / Nuxt.js",
+                "React / Next.js",
+                "Tailwind CSS",
+                "TypeScript"
+            ]
+        },
+        {
+            "icon": "🌐",
+            "title": "WordPress Development",
+            "desc": "Building custom WordPress themes and plugins and professional WooCommerce stores.",
+            "items": [
+                "Custom Themes",
+                "PHP Plugins",
+                "WooCommerce",
+                "Performance"
+            ]
+        },
+        {
+            "icon": "🚀",
+            "title": "Performance Optimization",
+            "desc": "Reviewing and optimizing the performance of your current apps: Core Web Vitals, load and SEO improvements.",
+            "items": [
+                "Core Web Vitals",
+                "Lighthouse",
+                "Code Splitting",
+                "Image Optimization"
+            ]
+        },
+        {
+            "icon": "🔧",
+            "title": "Tech Consulting",
+            "desc": "Reviewing your code and project structure and giving recommendations to improve quality and performance.",
+            "items": [
+                "Code Review",
+                "Tech Selection",
+                "Architecture",
+                "Practical Advice"
+            ]
+        },
+        {
+            "icon": "📱",
+            "title": "Responsive Design",
+            "desc": "Making sure your site works perfectly across all devices and screens.",
+            "items": [
+                "Mobile-first",
+                "Cross-browser",
+                "Accessibility",
+                "RTL Support"
+            ]
+        }
+    ],
+    "services.cta_title": "Ready to start?",
+    "services.cta_subtitle": "Tell me about your project and we’ll discuss how I can help.",
+    "services.cta_btn": "Get in touch",
+    "work.kicker": "Work",
+    "work.title": "Projects I’ve worked on",
+    "work.subtitle": "I design and build modern web interfaces and apps. Each project was a challenge that taught me something new.",
+    "work.cta_title": "Your next project?",
+    "work.cta_subtitle": "I’m always open to new and exciting projects. Get in touch and let’s build something great.",
+    "work.cta_btn": "Get in touch",
+    "projects": [
+        {
+            "name": "HalaTrips",
+            "desc": "A travel and trip-booking platform built with Next.js, with map integration and advanced search.",
+            "tags": [
+                "Next.js",
+                "TypeScript",
+                "Tailwind"
+            ],
+            "icon": "✈️",
+            "role": "Design & Front-end Development",
+            "year": "2024",
+            "url": "#",
+            "overview": "HalaTrips is a travel and trip-booking platform that helps users discover, plan, and book trips with confidence. I led the design and front-end build, focusing on a fast, map-driven search experience that feels effortless on mobile and desktop.",
+            "highlights": [
+                "Map-based discovery with smart filters",
+                "Fast, server-rendered search",
+                "Mobile-first booking flow"
+            ]
+        },
+        {
+            "name": "Rakeez",
+            "desc": "A web app for managing tasks and notes with a smooth, simple user experience.",
+            "tags": [
+                "Vue.js",
+                "Pinia",
+                "Tailwind"
+            ],
+            "icon": "📌",
+            "role": "Product Design & Development",
+            "year": "2023",
+            "url": "#",
+            "overview": "Rakeez (meaning \"focus\") is a calm app for managing tasks and notes. The goal was to remove friction — a clean interface, gentle interactions, and keyboard-friendly workflows that keep the user in flow.",
+            "highlights": [
+                "Distraction-free editor",
+                "Instant sync with Pinia state",
+                "Smooth, keyboard-first UX"
+            ]
+        },
+        {
+            "name": "Moashr",
+            "desc": "An Arabic job platform connecting employers with job seekers.",
+            "tags": [
+                "Nuxt.js",
+                "Vue.js",
+                "SSR"
+            ],
+            "icon": "💼",
+            "role": "Front-end & SSR Architecture",
+            "year": "2023",
+            "url": "#",
+            "overview": "Moashr is an Arabic-first job platform connecting employers with job seekers across the region. I built the front-end with Nuxt for SEO-friendly server rendering and a fast, accessible RTL experience.",
+            "highlights": [
+                "Arabic-first RTL design",
+                "SSR for SEO and speed",
+                "Accessible application flow"
+            ]
+        },
+        {
+            "name": "Swipyy",
+            "desc": "An interactive marketing tool that lets marketers build interactive content fast.",
+            "tags": [
+                "React",
+                "Vite",
+                "DnD"
+            ],
+            "icon": "🎯",
+            "role": "Interactive UI Engineering",
+            "year": "2024",
+            "url": "#",
+            "overview": "Swipyy is an interactive marketing tool that lets marketers build engaging content quickly through a drag-and-drop builder. I engineered the interaction layer for speed and a delightful, game-like editing feel.",
+            "highlights": [
+                "Drag-and-drop builder",
+                "Real-time live preview",
+                "Snappy, game-like interactions"
+            ]
+        },
+        {
+            "name": "CV Builder",
+            "desc": "A professional CV builder with PDF export.",
+            "tags": [
+                "Vue.js",
+                "Composition API",
+                "Print CSS"
+            ],
+            "icon": "📄",
+            "role": "Design & Build",
+            "year": "2022",
+            "url": "#",
+            "overview": "A professional CV builder that lets anyone create a clean, recruiter-ready resume and export it to PDF in one click. I focused on print-perfect CSS and a guided, step-by-step editing experience.",
+            "highlights": [
+                "One-click PDF export",
+                "Print-perfect layouts",
+                "Guided step-by-step editor"
+            ]
+        },
+        {
+            "name": "Medical Glamor",
+            "desc": "A medical aesthetics clinic website with an appointment booking system and WooCommerce.",
+            "tags": [
+                "WordPress",
+                "WooCommerce",
+                "PHP"
+            ],
+            "icon": "🏥",
+            "role": "Design & WordPress Build",
+            "year": "2023",
+            "url": "#",
+            "overview": "Medical Glamor is a medical aesthetics clinic website with a booking system and a WooCommerce store. I designed and built a trustworthy, elegant experience that balances clinical credibility with a premium feel.",
+            "highlights": [
+                "Appointment booking system",
+                "WooCommerce store",
+                "Premium, trustworthy UI"
+            ]
+        }
+    ],
+    "contact.kicker": "Contact",
+    "contact.title": "Hi, how can I help?",
+    "contact.subtitle": "Whether you have a new project, a technical question, or just want to say hi — I’m here.",
+    "contact.methods_title": "Ways to reach me",
+    "contact.email_label": "Email",
+    "contact.email_copied": "Email copied!",
+    "contact.faqs_title": "FAQ",
+    "contact.faqs": [
+        {
+            "q": "Are you available for work?",
+            "a": "Yes, I’m available for freelance projects. Get in touch to discuss the details."
+        },
+        {
+            "q": "How fast do you reply?",
+            "a": "I reply to messages within 1–2 business days."
+        },
+        {
+            "q": "Do you take Arabic projects?",
+            "a": "Yes, I work with clients from the Arab region and beyond."
+        }
+    ],
+    "contact.form_title": "Send a message",
+    "contact.replies_within": "I reply within two business days.",
+    "articles.index_kicker": "Blog",
+    "articles.index_title": "Articles",
+    "articles.index_subtitle": "I write about web development and design and everything I learn.",
+    "articles.featured_kicker": "Featured",
+    "articles.featured_title": "Selected articles",
+    "articles.all_kicker": "All",
+    "articles.all_title": "All articles",
+    "articles.comments_count": "Comments (:n)",
+    "articles.leave_comment": "Leave a comment",
+    "articles.related_kicker": "Read also",
+    "articles.related_title": "Related articles",
+    "articles.breadcrumb_home": "Home",
+    "articles.breadcrumb_articles": "Articles",
+    "newsletter.placeholder": "Your email",
+    "newsletter.btn": "Subscribe",
+    "newsletter.sending": "...",
+    "newsletter.success": "🎉 Subscribed! Thank you.",
+    "contact_form.name": "Name",
+    "contact_form.name_ph": "Your name",
+    "contact_form.email": "Email",
+    "contact_form.email_ph": "email@example.com",
+    "contact_form.subject": "Subject",
+    "contact_form.subject_ph": "Your message subject",
+    "contact_form.body": "Message",
+    "contact_form.body_ph": "Tell me about your project or question...",
+    "contact_form.submit": "Send message ✉️",
+    "contact_form.sending": "Sending...",
+    "contact_form.success_title": "Thank you! Your message has been sent",
+    "contact_form.success_msg": "I’ll get back to you within 1–2 business days.",
+    "contact_form.again": "Send another message",
+    "comment_form.name": "Name",
+    "comment_form.name_ph": "Your name",
+    "comment_form.email": "Email",
+    "comment_form.email_note": "(won’t be published)",
+    "comment_form.email_ph": "email@example.com",
+    "comment_form.body": "Comment",
+    "comment_form.body_ph": "Share your thoughts...",
+    "comment_form.submit": "Post comment",
+    "comment_form.sending": "Posting...",
+    "comment_form.success_title": "Thanks for your comment!",
+    "comment_form.success_msg": "Your comment is awaiting review and will appear soon.",
+    "footer.tagline": "Front-end developer and web designer. I build modern web experiences using Vue, React, Nuxt, and Next.js.",
+    "footer.pages_title": "Pages",
+    "footer.contact_title": "Contact",
+    "footer.replies": "I reply within two business days.",
+    "footer.copyright": "© :year Ameer Alafash. All rights reserved.",
+    "footer.built_with": "Built with Laravel + Livewire + Tailwind CSS",
+    "footer.email_copied": "Copied!"
+}

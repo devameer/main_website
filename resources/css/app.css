@@ -1,0 +1,289 @@
+@import 'tailwindcss';
+@plugin '@tailwindcss/typography';
+
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+@source '../../storage/framework/views/*.php';
+@source '../views';
+
+/* Enable class-based dark mode (toggled on <html class="dark">). */
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* =========================================================================
+   DESIGN SYSTEM — Vexy-inspired tokens
+   Colors, fonts, radius (capped 8px), shadows, spacing.
+   ========================================================================= */
+@theme {
+    --font-sans: 'Hanken Grotesk', 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji',
+        'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+
+    --radius-card: 8px;
+
+    /* Primary */
+    --color-primary-50: #eef2ff;
+    --color-primary-100: #e0e7ff;
+    --color-primary-200: #c7d2fe;
+    --color-primary-300: #a5b4fc;
+    --color-primary-400: #818cf8;
+    --color-primary-500: #6366f1;
+    --color-primary-600: #4f46e5;
+    --color-primary-700: #4338ca;
+    --color-primary-800: #3730a3;
+    --color-primary-900: #312e81;
+
+    /* Success */
+    --color-success-50: #ecfdf5;
+    --color-success-100: #d1fae5;
+    --color-success-200: #a7f3d0;
+    --color-success-400: #34d399;
+    --color-success-500: #10b981;
+    --color-success-600: #059669;
+    --color-success-700: #047857;
+    --color-success-800: #065f46;
+    --color-success-900: #064e3b;
+
+    /* Warning */
+    --color-warning-50: #fffbeb;
+    --color-warning-100: #fef3c7;
+    --color-warning-200: #fde68a;
+    --color-warning-400: #fbbf24;
+    --color-warning-500: #f59e0b;
+    --color-warning-600: #d97706;
+    --color-warning-700: #b45309;
+    --color-warning-800: #92400e;
+    --color-warning-900: #78350f;
+
+    /* Danger */
+    --color-danger-50: #fef2f2;
+    --color-danger-100: #fee2e2;
+    --color-danger-200: #fecaca;
+    --color-danger-400: #f87171;
+    --color-danger-500: #ef4444;
+    --color-danger-600: #dc2626;
+    --color-danger-700: #b91c1c;
+    --color-danger-800: #991b1b;
+    --color-danger-900: #7f1d1d;
+
+    /* Info */
+    --color-info-50: #eff6ff;
+    --color-info-100: #dbeafe;
+    --color-info-200: #bfdbfe;
+    --color-info-400: #60a5fa;
+    --color-info-500: #3b82f6;
+    --color-info-600: #2563eb;
+    --color-info-700: #1d4ed8;
+
+    --animate-fade-in: fade-in 0.18s ease-out;
+    --animate-slide-up: slide-up 0.22s ease-out;
+}
+
+@keyframes fade-in {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+@keyframes slide-up {
+    from { opacity: 0; transform: translateY(8px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+@keyframes shimmer {
+    0% { background-position: -400px 0; }
+    100% { background-position: 400px 0; }
+}
+
+/* =========================================================================
+   BASE
+   ========================================================================= */
+@layer base {
+    html {
+        -webkit-font-smoothing: antialiased;
+        text-rendering: optimizeLegibility;
+    }
+
+    [x-cloak] { display: none !important; }
+
+    body {
+        @apply bg-slate-100 text-slate-700 antialiased dark:bg-slate-950 dark:text-slate-300;
+        font-feature-settings: 'cv11', 'ss01';
+    }
+
+    *:focus-visible {
+        @apply outline-none ring-2 ring-primary-500/60 ring-offset-1 ring-offset-white dark:ring-offset-slate-900;
+    }
+
+    ::selection {
+        @apply bg-primary-500/20;
+    }
+
+    /* Thin, quiet scrollbars */
+    * {
+        scrollbar-width: thin;
+        scrollbar-color: rgb(148 163 184 / 0.4) transparent;
+    }
+    *::-webkit-scrollbar { width: 8px; height: 8px; }
+    *::-webkit-scrollbar-thumb { @apply rounded-full bg-slate-400/40; }
+    *::-webkit-scrollbar-thumb:hover { @apply bg-slate-400/70; }
+}
+
+/* =========================================================================
+   COMPONENTS — semantic classes, reused by Blade components
+   ========================================================================= */
+@layer components {
+    /* ---- Card ---- */
+    .card {
+        @apply rounded-[8px] border border-slate-200 bg-white shadow-sm transition-colors dark:border-slate-800 dark:bg-slate-900;
+    }
+    .card-pad { @apply p-5; }
+    .card-header {
+        @apply flex items-center justify-between gap-3 border-b border-slate-200 px-5 py-4 dark:border-slate-800;
+    }
+    .card-title { @apply text-sm font-semibold text-slate-800 dark:text-slate-100; }
+    .card-body { @apply p-5; }
+
+    /* ---- Buttons ---- */
+    .btn {
+        @apply inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-[8px] text-sm font-semibold transition-all duration-150 disabled:pointer-events-none disabled:opacity-50;
+        @apply focus-visible:ring-2 focus-visible:ring-primary-500/60;
+    }
+    .btn-sm { @apply px-2.5 py-1.5 text-xs; }
+    .btn-md { @apply px-3.5 py-2; }
+    .btn-lg { @apply px-5 py-2.5 text-base; }
+    .btn-icon { @apply p-2; }
+
+    .btn-primary { @apply bg-primary-600 text-white shadow-sm hover:bg-primary-700 active:bg-primary-800; }
+    .btn-secondary {
+        @apply border border-slate-200 bg-white text-slate-700 hover:bg-slate-50 active:bg-slate-100
+        dark:border-slate-700 dark:bg-slate-800 dark:text-slate-200 dark:hover:bg-slate-700;
+    }
+    .btn-ghost { @apply text-slate-600 hover:bg-slate-100 dark:text-slate-300 dark:hover:bg-slate-800; }
+    .btn-danger { @apply bg-danger-600 text-white shadow-sm hover:bg-danger-700 active:bg-danger-800; }
+    .btn-success { @apply bg-success-600 text-white shadow-sm hover:bg-success-700 active:bg-success-800; }
+    .btn-warning { @apply bg-warning-500 text-white shadow-sm hover:bg-warning-600 active:bg-warning-700; }
+
+    /* ---- Badges ---- */
+    .badge {
+        @apply inline-flex items-center gap-1 rounded-full px-2 py-0.5 text-xs font-medium;
+    }
+    .badge-gray { @apply bg-slate-100 text-slate-600 dark:bg-slate-800 dark:text-slate-300; }
+    .badge-primary { @apply bg-primary-50 text-primary-700 dark:bg-primary-500/15 dark:text-primary-300; }
+    .badge-success { @apply bg-success-50 text-success-700 dark:bg-success-500/15 dark:text-success-400; }
+    .badge-warning { @apply bg-warning-50 text-warning-700 dark:bg-warning-500/15 dark:text-warning-400; }
+    .badge-danger { @apply bg-danger-50 text-danger-700 dark:bg-danger-500/15 dark:text-danger-400; }
+    .badge-info { @apply bg-info-50 text-info-700 dark:bg-info-500/15 dark:text-info-400; }
+    .badge-dot { @apply h-1.5 w-1.5 rounded-full; }
+
+    /* ---- Form fields ---- */
+    .label { @apply mb-1.5 block text-sm font-medium text-slate-700 dark:text-slate-300; }
+    .field {
+        @apply w-full rounded-[8px] border border-slate-200 bg-white px-3 py-2 text-sm text-slate-800 shadow-sm transition
+        placeholder:text-slate-400
+        hover:border-slate-300
+        focus:border-primary-500 focus:ring-2 focus:ring-primary-500/30
+        dark:border-slate-700 dark:bg-slate-800 dark:text-slate-100 dark:placeholder:text-slate-500;
+    }
+    .field-error { @apply border-danger-400 focus:border-danger-500 focus:ring-danger-500/30; }
+    .field-hint { @apply mt-1 text-xs text-slate-500 dark:text-slate-400; }
+    .select {
+        @apply w-full appearance-none rounded-[8px] border border-slate-200 bg-white px-3 py-2 pr-9 text-sm text-slate-800 shadow-sm transition
+        hover:border-slate-300 focus:border-primary-500 focus:ring-2 focus:ring-primary-500/30
+        dark:border-slate-700 dark:bg-slate-800 dark:text-slate-100;
+    }
+
+    /* ---- Table ---- */
+    .table-wrap { @apply w-full overflow-x-auto; }
+    table.t-base { @apply w-full text-left text-sm; }
+    .t-base thead th {
+        @apply whitespace-nowrap border-b border-slate-200 bg-slate-50 px-4 py-3 text-xs font-semibold uppercase tracking-wide text-slate-500
+        dark:border-slate-800 dark:bg-slate-800/50 dark:text-slate-400;
+    }
+    .t-base tbody td {
+        @apply whitespace-nowrap border-b border-slate-100 px-4 py-3 text-slate-700 dark:border-slate-800 dark:text-slate-300;
+    }
+    .t-base tbody tr { @apply transition-colors hover:bg-slate-50 dark:hover:bg-slate-800/40; }
+    .t-base tbody tr:last-child td { @apply border-b-0; }
+
+    /* ---- Dropdown / popover surface ---- */
+    .popper {
+        @apply z-50 rounded-[8px] border border-slate-200 bg-white p-1 shadow-lg
+        dark:border-slate-700 dark:bg-slate-800;
+    }
+    .menu-item {
+        @apply flex w-full cursor-pointer items-center gap-2.5 rounded-md px-3 py-2 text-sm text-slate-700 transition-colors
+        hover:bg-slate-100 dark:text-slate-200 dark:hover:bg-slate-700/60;
+    }
+    .menu-item-danger { @apply text-danger-600 hover:bg-danger-50 dark:text-danger-400 dark:hover:bg-danger-500/10; }
+
+    /* ---- Tooltip ---- */
+    .tooltip {
+        @apply pointer-events-none absolute z-[60] -translate-y-full whitespace-nowrap rounded-md bg-slate-900 px-2 py-1 text-xs font-medium text-white
+        opacity-0 shadow-md transition-opacity duration-150 dark:bg-slate-700;
+    }
+    .group:hover .tooltip, .tooltip-show .tooltip { @apply opacity-100; }
+
+    /* ---- Skeleton ---- */
+    .skeleton {
+        @apply relative overflow-hidden rounded bg-slate-200/70 dark:bg-slate-800;
+        background-image: linear-gradient(90deg, transparent, rgb(255 255 255 / 0.35), transparent);
+        background-size: 400px 100%;
+        background-repeat: no-repeat;
+        animation: shimmer 1.4s infinite linear;
+    }
+
+    /* ---- Input group / search ---- */
+    .search {
+        @apply flex items-center gap-2 rounded-[8px] border border-slate-200 bg-white px-3 py-2 text-sm transition
+        focus-within:border-primary-500 focus-within:ring-2 focus-within:ring-primary-500/30
+        dark:border-slate-700 dark:bg-slate-800;
+    }
+    .search input { @apply w-full bg-transparent text-slate-700 placeholder:text-slate-400 focus:outline-none dark:text-slate-100; }
+
+    /* ---- Sidebar link ---- */
+    .nav-link {
+        @apply flex items-center gap-3 rounded-[8px] px-3 py-2 text-sm font-medium text-slate-600 transition-colors
+        hover:bg-slate-100 hover:text-slate-900 dark:text-slate-400 dark:hover:bg-slate-800 dark:hover:text-slate-100;
+    }
+    .nav-link-active {
+        @apply bg-primary-50 text-primary-700 dark:bg-primary-500/15 dark:text-primary-300;
+    }
+
+    /* ---- Tabs ---- */
+    .tab {
+        @apply cursor-pointer border-b-2 px-4 py-2.5 text-sm font-medium transition-colors;
+    }
+    .tab-active { @apply border-primary-600 text-primary-700 dark:text-primary-300; }
+    .tab-idle { @apply border-transparent text-slate-500 hover:text-slate-800 dark:hover:text-slate-200; }
+
+    /* ---- Misc helpers ---- */
+    .glass-divider { @apply border-t border-slate-200 dark:border-slate-800; }
+    .link-muted { @apply text-slate-500 transition-colors hover:text-primary-600 dark:hover:text-primary-400; }
+
+    /* ---- Stat card ---- */
+    .stat-icon {
+        @apply flex h-10 w-10 items-center justify-center rounded-[8px];
+    }
+
+    /* ---- Markdown editor toolbar button ---- */
+    .md-tool {
+        @apply inline-flex h-7 min-w-[1.75rem] items-center justify-center rounded-md px-1.5 text-xs font-medium text-slate-600 transition-colors hover:bg-slate-200 dark:text-slate-300 dark:hover:bg-slate-700;
+    }
+
+    /* ---- Markdown preview code blocks (hljs github-dark) ---- */
+    .prose :where(pre):not(:where([class~="not-prose"] *)) {
+        @apply rounded-[8px] border border-slate-800 bg-[#0d1117] px-4 py-3 text-[13px] leading-relaxed;
+    }
+    .prose :where(pre code):not(:where([class~="not-prose"] *)) {
+        @apply block bg-transparent p-0 font-mono text-slate-100;
+    }
+    .prose :where(code):not(:where([class~="not-prose"] *)) {
+        @apply rounded bg-slate-100 px-1.5 py-0.5 font-mono text-[0.85em] text-primary-700 dark:bg-slate-800 dark:text-primary-300;
+    }
+    .prose :where(pre code):not(:where([class~="not-prose"] *)) {
+        @apply bg-transparent text-slate-100;
+    }
+}
+
+/* =========================================================================
+   UTILITIES
+   ========================================================================= */
+@utility scrollbar-none {
+    scrollbar-width: none;
+    &::-webkit-scrollbar { display: none; }
+}

@@ -1,0 +1,366 @@
+{
+    "brand.name": "عامر علافش",
+    "brand.role": "مطوّر Front-end ومصمم ويب",
+    "promo.text": "🚀 متاح لمشاريع Front-end جديدة —",
+    "promo.link": "تواصل معي",
+    "nav.home": "الرئيسية",
+    "nav.articles": "المقالات",
+    "nav.work": "أعمالي",
+    "nav.services": "خدماتي",
+    "nav.about": "من نحن",
+    "nav.contact": "تواصل",
+    "nav.cta": "تواصل معي",
+    "common.view_all": "عرض الكل",
+    "common.all": "الكل",
+    "common.previous": "السابق",
+    "common.next": "التالي",
+    "common.minutes_read": ":n دقائق قراءة",
+    "common.views": ":n مشاهدة",
+    "common.no_articles": "لا توجد مقالات في هذا التصنيف بعد.",
+    "home.hero_kicker": "مرحباً، أنا عامر 👋",
+    "home.hero_title_1": "أبني تجارب",
+    "home.hero_highlight": "ويب حديثة",
+    "home.hero_title_2": "وجميلة",
+    "home.hero_desc": "مطوّر Front-end (Vue · Nuxt · React · Next) ومصمم ويب. أساعدك في بناء واجهات سريعة وسهلة الاستخدام تحقق أهدافك.",
+    "home.btn_work": "شاهد أعمالي",
+    "home.btn_contact": "تواصل معي",
+    "home.skills": [
+        "Vue.js",
+        "Nuxt.js",
+        "React",
+        "Next.js",
+        "Tailwind CSS",
+        "TypeScript",
+        "Laravel",
+        "WordPress",
+        "UI/UX Design"
+    ],
+    "home.featured_kicker": "أعمالي",
+    "home.featured_title": "مشاريع اشتغلت عليها",
+    "home.featured_subtitle": "بعض من المشاريع التي بنيتها وأنا فخور بها.",
+    "home.featured_action": "كل الأعمال",
+    "home.services_kicker": "ماذا أقدّم",
+    "home.services_title": "خدماتي",
+    "home.services_action": "عرض جميع الخدمات",
+    "home.articles_kicker": "المدوّنة",
+    "home.articles_title": "أحدث المقالات",
+    "home.articles_subtitle": "أشارك ما أتعلمه في مجال تطوير الويب والتصميم.",
+    "home.articles_action": "كل المقالات",
+    "home.categories_kicker": "التصنيفات",
+    "home.categories_title": "استكشف بالموضوع",
+    "home.newsletter_title": "اشترك في النشرة البريدية",
+    "home.newsletter_desc": "أشارك مقالات وأدوات وأفكار حول تطوير الويب والتصميم. بدون سبام.",
+    "about.kicker": "نبذة عني",
+    "about.title": "مرحباً، أنا عامر 👋",
+    "about.lead": "أنا <strong>عامر علافش</strong>، مطوّر Front-end ومصمم ويب. أعمل على بناء تجارب ويب سريعة وجميلة وسهلة الاستخدام باستخدام Vue.js وNuxt.js وReact وNext.js.",
+    "about.p1": "بدأت رحلتي مع الويب منذ سنوات، وتعلّمت كيفية الجمع بين التصميم الجيد والكود النظيف لبناء منتجات رقمية تُحدث فرقاً حقيقياً. أؤمن أن الواجهة الجيدة تبدأ من فهم المستخدم وتنتهي بتجربة لا تُنسى.",
+    "about.p2": "عملت على مشاريع متنوعة: منصات سفر، تطبيقات إدارة، منصات توظيف، مواقع طبية وتجارية. كل مشروع علّمني شيئاً جديداً وأضاف إلى حصيلتي الخبرة.",
+    "about.skill_groups": [
+        {
+            "cat": "الأطر والمكتبات",
+            "items": [
+                "Vue.js",
+                "Nuxt.js",
+                "React",
+                "Next.js",
+                "Livewire"
+            ]
+        },
+        {
+            "cat": "التصميم",
+            "items": [
+                "Figma",
+                "Tailwind CSS",
+                "UI Design",
+                "UX Research"
+            ]
+        },
+        {
+            "cat": "الباك اند الأساسي",
+            "items": [
+                "Laravel",
+                "PHP",
+                "REST APIs",
+                "MySQL"
+            ]
+        },
+        {
+            "cat": "أدوات أخرى",
+            "items": [
+                "Git",
+                "Vite",
+                "TypeScript",
+                "WordPress"
+            ]
+        }
+    ],
+    "about.btn_work": "شاهد أعمالي",
+    "about.btn_contact": "تواصل معي",
+    "services.kicker": "خدماتي",
+    "services.title": "كيف أستطيع مساعدتك؟",
+    "services.subtitle": "أقدّم خدمات متكاملة من التصميم إلى التطوير لبناء منتجك الرقمي.",
+    "services.items": [
+        {
+            "icon": "🎨",
+            "title": "تصميم UI/UX",
+            "desc": "تصميم واجهات مستخدم جذابة وتجربة مستخدم متميزة باستخدام Figma. من Wireframes إلى Prototype قابل للاختبار.",
+            "items": [
+                "تصميم Figma",
+                "نماذج Wireframe",
+                "Prototype تفاعلي",
+                "اختبار المستخدمين"
+            ]
+        },
+        {
+            "icon": "⚡",
+            "title": "تطوير Front-end",
+            "desc": "بناء واجهات ويب سريعة وحديثة باستخدام Vue.js وReact وNuxt وNext.js مع Tailwind CSS.",
+            "items": [
+                "Vue.js / Nuxt.js",
+                "React / Next.js",
+                "Tailwind CSS",
+                "TypeScript"
+            ]
+        },
+        {
+            "icon": "🌐",
+            "title": "تطوير WordPress",
+            "desc": "بناء قوالب WordPress مخصصة وإضافات وتطوير متاجر WooCommerce احترافية.",
+            "items": [
+                "قوالب مخصصة",
+                "إضافات PHP",
+                "WooCommerce",
+                "تحسين الأداء"
+            ]
+        },
+        {
+            "icon": "🚀",
+            "title": "تحسين الأداء",
+            "desc": "مراجعة وتحسين أداء تطبيقاتك الحالية: Core Web Vitals، تحسين التحميل والـ SEO.",
+            "items": [
+                "Core Web Vitals",
+                "Lighthouse",
+                "Code Splitting",
+                "Image Optimization"
+            ]
+        },
+        {
+            "icon": "🔧",
+            "title": "استشارات تقنية",
+            "desc": "مراجعة كودك وهيكل مشروعك وتقديم توصيات لتحسين الجودة والأداء.",
+            "items": [
+                "Code Review",
+                "اختيار التقنية",
+                "معمارية المشروع",
+                "نصائح عملية"
+            ]
+        },
+        {
+            "icon": "📱",
+            "title": "تصميم Responsive",
+            "desc": "ضمان أن يعمل موقعك بشكل مثالي على جميع الأجهزة والشاشات.",
+            "items": [
+                "Mobile-first",
+                "Cross-browser",
+                "Accessibility",
+                "RTL Support"
+            ]
+        }
+    ],
+    "services.cta_title": "مستعد للبدء؟",
+    "services.cta_subtitle": "أخبرني عن مشروعك وسنناقش كيف يمكنني مساعدتك.",
+    "services.cta_btn": "تواصل معي",
+    "work.kicker": "أعمالي",
+    "work.title": "مشاريع اشتغلت عليها",
+    "work.subtitle": "أُصمّم وأبني واجهات ويب وتطبيقات حديثة. كل مشروع كان تحدياً علّمني شيئاً جديداً.",
+    "work.cta_title": "مشروعك القادم؟",
+    "work.cta_subtitle": "أنا دائماً منفتح على مشاريع جديدة ومثيرة. تواصل معي ونبني شيئاً رائعاً.",
+    "work.cta_btn": "تواصل معي",
+    "projects": [
+        {
+            "name": "HalaTrips",
+            "desc": "منصة سفر وحجز رحلات مبنية بـ Next.js مع تكامل خرائط وبحث متقدم.",
+            "tags": [
+                "Next.js",
+                "TypeScript",
+                "Tailwind"
+            ],
+            "icon": "✈️",
+            "role": "التصميم وتطوير الواجهات",
+            "year": "2024",
+            "url": "#",
+            "overview": "«هالاتريبس» منصة سفر وحجز رحلات تساعد المستخدمين على اكتشاف الرحلات وتخطيطها وحجزها بثقة. قُدت التصميم وبناء الواجهات مع التركيز على تجربة بحث سريعة تعتمد على الخرائط وتكون سلسة على الجوال والحاسوب.",
+            "highlights": [
+                "اكتشاف مبنى على الخرائط مع فلاتر ذكية",
+                "بحث سريع بتصيير من الخادم",
+                "تدفق حجز يبدأ من الجوال"
+            ]
+        },
+        {
+            "name": "Rakeez",
+            "desc": "تطبيق ويب لإدارة المهام والملاحظات بتجربة مستخدم سلسة وبسيطة.",
+            "tags": [
+                "Vue.js",
+                "Pinia",
+                "Tailwind"
+            ],
+            "icon": "📌",
+            "role": "تصميم وتطوير المنتج",
+            "year": "2023",
+            "url": "#",
+            "overview": "«رَكيزة» تطبيق هادئ لإدارة المهام والملاحظات. الهدف كان إزالة العوائق — واجهة نظيفة وتفاعلات لطيفة وسير عمل يدعم لوحة المفاتيح للحفاظ على تركيز المستخدم.",
+            "highlights": [
+                "محرّر بلا تشتيت",
+                "مزامنة فورية عبر حالة Pinia",
+                "تجربة سلسة تعتمد على لوحة المفاتيح"
+            ]
+        },
+        {
+            "name": "Moashr للوظائف",
+            "desc": "منصة توظيف عربية تربط أصحاب العمل بالباحثين عن عمل.",
+            "tags": [
+                "Nuxt.js",
+                "Vue.js",
+                "SSR"
+            ],
+            "icon": "💼",
+            "role": "تطوير الواجهات ومعمارية SSR",
+            "year": "2023",
+            "url": "#",
+            "overview": "«موظّر» منصة توظيف عربية تربط أصحاب العمل بالباحثين عن عمل في المنطقة. بنيت الواجهات بـ Nuxt لتصيير من الخادم يدعم SEO وتجربة RTL سريعة ومتاحة.",
+            "highlights": [
+                "تصميم عربي أولاً RTL",
+                "SSR لتحسين SEO والسرعة",
+                "تدفّق تقديم متاح للجميع"
+            ]
+        },
+        {
+            "name": "Swipyy",
+            "desc": "أداة تسويق تفاعلية تُمكّن المسوّقين من بناء محتوى تفاعلي بسرعة.",
+            "tags": [
+                "React",
+                "Vite",
+                "DnD"
+            ],
+            "icon": "🎯",
+            "role": "هندسة واجهات تفاعلية",
+            "year": "2024",
+            "url": "#",
+            "overview": "«سويبي» أداة تسويق تفاعلية تُمكّن المسوّقين من بناء محتوى جذاب بسرعة عبر منشئ السحب والإفلات. هندست طبقة التفاعل للسرعة وإحساس تحرير ممتع أقرب للألعاب.",
+            "highlights": [
+                "منشئ بالسحب والإفلات",
+                "معاينة حيّة فورية",
+                "تفاعلات سريعة أشبه بالألعاب"
+            ]
+        },
+        {
+            "name": "CV Builder",
+            "desc": "منشئ سيرة ذاتية احترافي مع إمكانية التصدير للـ PDF.",
+            "tags": [
+                "Vue.js",
+                "Composition API",
+                "Print CSS"
+            ],
+            "icon": "📄",
+            "role": "تصميم وبناء",
+            "year": "2022",
+            "url": "#",
+            "overview": "منشئ سيرة ذاتية احترافي يتيح لأي شخص إنشاء سيرة نظيفة وجاهزة لأخصائيي التوظيف وتصديرها PDF بنقرة. ركّزت على CSS مثالي للطباعة وتجربة تحرير موجّهة خطوة بخطوة.",
+            "highlights": [
+                "تصدير PDF بنقرة واحدة",
+                "تخطيطات مثالية للطباعة",
+                "محرّر موجّه خطوة بخطوة"
+            ]
+        },
+        {
+            "name": "Medical Glamor",
+            "desc": "موقع عيادة طبية تجميلية مع نظام حجز مواعيد وWooCommerce.",
+            "tags": [
+                "WordPress",
+                "WooCommerce",
+                "PHP"
+            ],
+            "icon": "🏥",
+            "role": "تصميم وبناء ووردبريس",
+            "year": "2023",
+            "url": "#",
+            "overview": "«ميديكال غلامور» موقع عيادة طبية تجميلية مع نظام حجز ومتجر WooCommerce. صمّمت وبنيت تجربة موثوقة وأنيقة تُوازن بين المصداقية الطبية والإحساس الراقي.",
+            "highlights": [
+                "نظام حجز المواعيد",
+                "متجر WooCommerce",
+                "واجهة راقية وموثوقة"
+            ]
+        }
+    ],
+    "contact.kicker": "تواصل",
+    "contact.title": "أهلاً، كيف أساعدك؟",
+    "contact.subtitle": "سواء لديك مشروع جديد، سؤال تقني، أو تريد فقط تقول مرحباً — أنا هنا.",
+    "contact.methods_title": "طرق التواصل",
+    "contact.email_label": "الإيميل",
+    "contact.email_copied": "تم نسخ الإيميل!",
+    "contact.faqs_title": "أسئلة شائعة",
+    "contact.faqs": [
+        {
+            "q": "هل أنت متاح للعمل؟",
+            "a": "نعم، أنا متاح لمشاريع Freelance. تواصل معي لنناقش التفاصيل."
+        },
+        {
+            "q": "كم تستغرق الردود؟",
+            "a": "أرد على الرسائل خلال 1-2 يوم عمل."
+        },
+        {
+            "q": "هل تقبل مشاريع عربية؟",
+            "a": "نعم، أعمل مع عملاء من المنطقة العربية وخارجها."
+        }
+    ],
+    "contact.form_title": "أرسل رسالة",
+    "contact.replies_within": "أرد خلال يومي عمل.",
+    "articles.index_kicker": "المدوّنة",
+    "articles.index_title": "المقالات",
+    "articles.index_subtitle": "أكتب عن تطوير الويب والتصميم وكل ما أتعلمه.",
+    "articles.featured_kicker": "مميّزة",
+    "articles.featured_title": "مقالات مختارة",
+    "articles.all_kicker": "الكل",
+    "articles.all_title": "جميع المقالات",
+    "articles.comments_count": "التعليقات (:n)",
+    "articles.leave_comment": "اترك تعليقاً",
+    "articles.related_kicker": "اقرأ أيضاً",
+    "articles.related_title": "مقالات ذات صلة",
+    "articles.breadcrumb_home": "الرئيسية",
+    "articles.breadcrumb_articles": "المقالات",
+    "newsletter.placeholder": "بريدك الإلكتروني",
+    "newsletter.btn": "اشترك",
+    "newsletter.sending": "...",
+    "newsletter.success": "🎉 تم الاشتراك! شكراً لك.",
+    "contact_form.name": "الاسم",
+    "contact_form.name_ph": "اسمك الكريم",
+    "contact_form.email": "الإيميل",
+    "contact_form.email_ph": "email@example.com",
+    "contact_form.subject": "الموضوع",
+    "contact_form.subject_ph": "موضوع رسالتك",
+    "contact_form.body": "الرسالة",
+    "contact_form.body_ph": "أخبرني عن مشروعك أو تساؤلك...",
+    "contact_form.submit": "إرسال الرسالة ✉️",
+    "contact_form.sending": "جاري الإرسال...",
+    "contact_form.success_title": "شكراً! تم إرسال رسالتك",
+    "contact_form.success_msg": "سأرد عليك خلال 1-2 يوم عمل.",
+    "contact_form.again": "إرسال رسالة أخرى",
+    "comment_form.name": "الاسم",
+    "comment_form.name_ph": "اسمك",
+    "comment_form.email": "الإيميل",
+    "comment_form.email_note": "(لن يُنشر)",
+    "comment_form.email_ph": "email@example.com",
+    "comment_form.body": "التعليق",
+    "comment_form.body_ph": "شاركنا رأيك...",
+    "comment_form.submit": "نشر التعليق",
+    "comment_form.sending": "جاري النشر...",
+    "comment_form.success_title": "شكراً على تعليقك!",
+    "comment_form.success_msg": "تعليقك في انتظار المراجعة وسيظهر قريباً.",
+    "footer.tagline": "مطوّر Front-end ومصمم ويب. أبني تجارب ويب حديثة باستخدام Vue, React, Nuxt وNext.js.",
+    "footer.pages_title": "الصفحات",
+    "footer.contact_title": "تواصل",
+    "footer.replies": "أرد خلال يومي عمل.",
+    "footer.copyright": "© :year عامر علافش. جميع الحقوق محفوظة.",
+    "footer.built_with": "مبني بـ Laravel + Livewire + Tailwind CSS",
+    "footer.email_copied": "تم النسخ!"
+}
