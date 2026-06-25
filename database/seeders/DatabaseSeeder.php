@@ -2,23 +2,14 @@
 
 namespace Database\Seeders;
 
-use App\Models\Article;
-use App\Models\Category;
-use App\Models\Comment;
-use App\Models\MediaItem;
 use App\Models\Message;
 use App\Models\User;
 use Illuminate\Database\Seeder;
-use Illuminate\Support\Facades\DB;
 
 class DatabaseSeeder extends Seeder
 {
     public function run(): void
     {
-        Category::factory()->count(6)->create();
-        Article::factory()->count(48)->create();
-        Comment::factory()->count(26)->create();
-        MediaItem::factory()->count(24)->create();
 
         $team = [
             ['Ameer Ahmad', 'ameer@example.com', 'admin', 'Founder & Editor'],
