@@ -12,10 +12,10 @@ class CategoryFactory extends Factory
         $colors = ['primary', 'success', 'warning', 'danger', 'info'];
 
         return [
-            'name' => fake()->unique()->randomElement($names),
-            'color' => fake()->randomElement($colors),
-            'description' => fake()->sentence(),
-            'sort_order' => fake()->numberBetween(0, 20),
+            'name' => $this->faker->unique()->randomElement($names),
+            'color' => $this->faker->randomElement($colors),
+            'description' => $this->faker->sentence(),
+            'sort_order' => $this->faker->numberBetween(0, 20),
         ];
     }
 }
